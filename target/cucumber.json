@@ -1,0 +1,665 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "invalid username or password should return the correct error message",
+        "description": "",
+        "id": "login-functionality;invalid-username-or-password-should-return-the-correct-error-message;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12410039190,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I land on the homepage",
+            "match": {
+              "location": "InvalidLogin3.iLandOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2955832287,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "InvalidLogin3.iClickOnTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247305578,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"nwolisachinedu2015@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nwolisachinedu2015@yahoo.com",
+                  "offset": 9
+                }
+              ],
+              "location": "InvalidLogin3.iEnter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105454527,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input \"godson2015\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "godson2015",
+                  "offset": 9
+                }
+              ],
+              "location": "InvalidLogin3.iInput(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1451191316,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the  login",
+            "match": {
+              "location": "InvalidLogin3.iClickOnTheLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264827483,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get the correct \"Authentication failed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 26
+                }
+              ],
+              "location": "InvalidLogin3.iShouldGetTheCorrect(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "invalid username or password should return the correct error message",
+        "description": "",
+        "id": "login-functionality;invalid-username-or-password-should-return-the-correct-error-message;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20499248703,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I land on the homepage",
+            "match": {
+              "location": "InvalidLogin3.iLandOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2680057646,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "InvalidLogin3.iClickOnTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138294473,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"wolisachinedu2015@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wolisachinedu2015@yahoo.com",
+                  "offset": 9
+                }
+              ],
+              "location": "InvalidLogin3.iEnter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92585009,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input \"Godson2015\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Godson2015",
+                  "offset": 9
+                }
+              ],
+              "location": "InvalidLogin3.iInput(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2265387114,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the  login",
+            "match": {
+              "location": "InvalidLogin3.iClickOnTheLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 251132170,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get the correct \"Authentication failed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 26
+                }
+              ],
+              "location": "InvalidLogin3.iShouldGetTheCorrect(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "invalid username or password should return the correct error message",
+        "description": "",
+        "id": "login-functionality;invalid-username-or-password-should-return-the-correct-error-message;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8287158894,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I land on the homepage",
+            "match": {
+              "location": "InvalidLogin3.iLandOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3057390899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "InvalidLogin3.iClickOnTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117540172,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 9
+                }
+              ],
+              "location": "InvalidLogin3.iEnter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63737822,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 9
+                }
+              ],
+              "location": "InvalidLogin3.iInput(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3132902283,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the  login",
+            "match": {
+              "location": "InvalidLogin3.iClickOnTheLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273468156,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get the correct \"An email address required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 26
+                }
+              ],
+              "location": "InvalidLogin3.iShouldGetTheCorrect(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "InvalidLogin3.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create New User",
+        "description": "",
+        "id": "create-user;create-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9787251778,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i get on the home screen",
+            "match": {
+              "location": "Newuser.iGetOnTheHomeScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3759202653,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i get on the login screen",
+            "match": {
+              "location": "Newuser.iGetOnTheLoginScreen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278137983,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i enter email address for new account",
+            "match": {
+              "location": "Newuser.iEnterEmailAddressForNewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8113441203,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click the create account button",
+            "match": {
+              "location": "Newuser.iClickTheCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1638376968,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i enter all required details",
+            "match": {
+              "location": "Newuser.iEnterAllRequiredDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4454614388,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i click the register button",
+            "match": {
+              "location": "Newuser.iClickTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233408670,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "my account should be created successfully",
+            "match": {
+              "location": "Newuser.myAccountShouldBeCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create User",
+    "description": "",
+    "id": "create-user",
+    "keyword": "Feature",
+    "uri": "Newuser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "login-functionality;user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9241644612,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "ValidLogin.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2569573371,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the sign in button",
+            "match": {
+              "location": "ValidLogin.iClickTheSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 211671425,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i enter valid username",
+            "match": {
+              "location": "ValidLogin.iEnterValidUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97172815,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i enter valid password",
+            "match": {
+              "location": "ValidLogin.iEnterValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3392374583,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i click the login button",
+            "match": {
+              "location": "ValidLogin.iClickTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216530358,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "ValidLogin.iShouldBeLoggedInSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "ValidLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Assert that the sign in button navigates to the sign in page",
+        "description": "",
+        "id": "sign-in;assert-that-the-sign-in-button-navigates-to-the-sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9340040568,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i get on the homepage",
+            "match": {
+              "location": "VerifySignIn.iGetOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2922541605,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i press the sign in button",
+            "match": {
+              "location": "VerifySignIn.iPressTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238599178,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i should navigate to the sign in page successfully",
+            "match": {
+              "location": "VerifySignIn.iShouldNavigateToTheSignInPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign In",
+    "description": "",
+    "id": "sign-in",
+    "keyword": "Feature",
+    "uri": "VerifySignIn.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify that logo and cart button are displayed on the homepage",
+        "description": "",
+        "id": "homepage-logo-and-cart-button;verify-that-logo-and-cart-button-are-displayed-on-the-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3643163545,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i launch a browser",
+            "match": {
+              "location": "assertLogoAndCartButtonOnHomepage.i_launch_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3460070998,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter Application url",
+            "match": {
+              "location": "assertLogoAndCartButtonOnHomepage.i_enter_Application_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5024940223,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "assertLogoAndCartButtonOnHomepage.i_wait_for_seconds(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332384898,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see application logo and add to cart login",
+            "match": {
+              "location": "assertLogoAndCartButtonOnHomepage.i_should_see_application_logo_and_add_to_cart_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Homepage logo and Cart Button",
+    "description": "",
+    "id": "homepage-logo-and-cart-button",
+    "keyword": "Feature",
+    "uri": "assertLogoAndCartButtonOnHomepage.feature"
+  }
+]
